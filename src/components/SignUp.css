@@ -19,14 +19,32 @@
 }
 .loginPara {
   color: rgba(var(--f52, 142, 142, 142), 1);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 20px;
-  margin: 0px 40px 20px 40px;
+  margin: 0px 20px 20px 20px;
 }
 
-input{
-    outline: none;
-    width: 100%;
-    box-sizing: border-box;
+input {
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#submit-btn {
+  background-color: #1773ea;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  width: 80%;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.form2 {
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 5px;
+  border: 1px solid rgb(129, 121, 121);
 }
