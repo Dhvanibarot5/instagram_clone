@@ -2,10 +2,11 @@ import React from "react";
 import logo from "../images/logo.png";
 import "./SignUp.css";
 import "./SignIn";
+import { Link } from "react-router-dom";
 
 function SignUp() {
   return (
-    <div className="signUp">
+    <div className="signUp overflow-hidden">
       <div className="container w-[380px]">
         <div className="form flex flex-col justify-center items-center text-center">
           <img src={logo} alt="" className="signUpLogo" />
